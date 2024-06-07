@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Read Articles";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Formal font import -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background color */
+            font-family: 'Roboto', sans-serif; /* Default font family */
+        }
+
+        .article-container {
+            background-color: #e6f7ff; /* Slightly lighter shade of blue for article container */
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+            max-width: 800px; /* Limit width for better readability */
+        }
+
+        .article-title {
+            font-family: 'Lobster', cursive; /* Lobster font for article titles */
+            font-size: 28px;
+            color: #333; /* Dark text color for better contrast */
+            margin-bottom: 10px;
+        }
+
+        .article-description {
+            font-family: 'Roboto', sans-serif; /* Roboto font for article descriptions */
+            font-size: 16px;
+            color: #555; /* Slightly darker text color for description */
+            line-height: 1.6; /* Improved line spacing for readability */
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+       
+
+        @foreach (var article in Model)
+        {
+            <div class="article-container">
+                <h2 class="article-title">@article.Title</h2>
+                <p class="article-description">@article.Description</p>
+            </div>
+        }
+    </div>
+    
+</body>
+</html>

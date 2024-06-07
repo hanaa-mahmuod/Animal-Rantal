@@ -1,0 +1,93 @@
+﻿@model Animal_Rental.Models.Complaints
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="content pt1">
+    <div class="container_12 " style="
+background-image: url('images\1000_f_95433807_h8du0jkuipvbffgtnrv9jepfua8k81ef.jpg');">
+        
+        <div class="grid_6">
+            <h2> Contact Us</h2>
+            
+            <br>
+            <div class="map">
+                <figure class="img_inner">
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+                </figure>
+                <address>
+                    <dl>
+                        <dt>
+                            <p>
+                                The Company Name Inc.<br>
+                                8901 Marmora Road,<br>
+                                Glasgow, D04 89GR.
+                            </p>
+                        </dt>
+                        <dd><span>Freephone:</span>+1 800 559 6580</dd>
+                        <dd><span>Telephone:</span>+1 800 603 6035</dd>
+                        <dd><span>FAX:</span>+1 800 889 9898</dd>
+
+                    </dl>
+                    <div class="grid_12">
+                        <div class="socials float-start mt-4"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+                       
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="grid_5 prefix_1">
+
+            <h2  class="ic1 ">Complaint Form</h2>
+            <form id="form" method="post" action="/contact/addcomplaint">
+                <div class="success_wrapper">
+                    <div class="success">
+                        Contact form submitted!<br>
+                        <strong>We will be in touch soon.</strong>
+                    </div>
+                </div>
+                <fieldset>
+                    <div class="form-group" style="display: none;">
+                        <!-- Hide this field from the form -->
+                        <label asp-for="User_Id" class="control-label"></label>
+                        <input asp-for="User_Id" class="form-control" />
+                        <span asp-validation-for="User_Id" class="text-danger"></span>
+                    </div>
+                    <div class="form-group first fw-bold fs-6 mt-3">
+                        <label asp-for="Defendant_Email">Email</label>
+                        <input type="text" class="form-control " placeholder="Email" asp-for="Defendant_Email">
+                        <span asp-validation-for="Defendant_Email" class="text-danger"></span>
+                    </div>
+
+                  @*   <div class="form-group last mt-3 fw-bold fs-6">
+                        <label for="password">Password</label>
+                        <input class="form-control"  placeholder="Password" type="password" id="password" name="User_Id">
+                    </div> *@
+
+                    <label class="message fw-bold fs-6 mt-3" asp-for="Notes">
+                        Message
+                        <textarea name="notes" asp-for="Notes"></textarea>
+                        <span asp-validation-for="Notes" class="text-danger"></span>
+                    </label>
+
+                    <div class="clear"></div>
+                    <div class="btns">
+                        <input type="reset" class="btn btn-lg bg-dark  text-white" style="background-color:#F98D0D" value="Clear">
+                        <input type="submit" class="btn btn-lg text-white" style="background-color:#C9E54E" value="Send">
+                        <div class="clear"></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+      
+ }

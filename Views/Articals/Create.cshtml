@@ -1,0 +1,246 @@
+﻿@* @model Animal_Rental.Models.Articals
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="sidebar w-100 text-center" style="height:50px;background-color:gray">
+
+    <div class="d-flex justify-content-between">
+        <h3 class="admin-label">Admin</h3>
+        <a class="sidebar-links" asp-controller="Admin" asp-action="Index" asp-route-id="7">Dashboard</a>
+        <a class="sidebar-links" asp-controller="Complaints" asp-action="Index" asp-route-id="7">Manage Complaints</a>
+        <a class="sidebar-links" asp-controller="Users" asp-action="Index" asp-route-id="7">Manage Users</a>
+        <a class="sidebar-links" asp-controller="Articals" asp-action="Create" asp-route-id="7">Create Article</a>
+    </div>
+
+</div> 
+
+<h1 style="background-color: lightblue; padding: 10px;">Create Article</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div >
+                    <label asp-for="Type_Of_Animals" class="control-label"></label>
+                </div>
+                <input asp-for="Type_Of_Animals" class="form-control" />
+                <span asp-validation-for="Type_Of_Animals" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div >
+                    <label asp-for="Content" class="control-label"></label>
+                </div>
+                <textarea asp-for="Content" class="form-control"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="margin-top: 20px;">
+                <!-- Added margin-top style -->
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+<style>
+    /* Sidebar styles */
+    body {
+        background-color: #f2f2f2; /* Set background color to gray */
+    }
+
+    .navbar {
+        background-color: black; /* Set navbar background color to black */
+    }
+
+    .navbar-brand {
+        color: gray !important; /* Set navbar brand text color to white */
+        text-decoration: none; /* Remove default underline */
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important; /* Set navbar link text color to white */
+    }
+
+    .footer {
+        background-color: black; /* Set footer background color to black */
+        color: white; /* Set footer text color to white */
+        padding: 20px 0; /* Add padding to the footer */
+    }
+
+   
+
+    /* Main content styles */
+    .content {
+        margin-left: 220px; /* Adjust the margin to make space for the sidebar */
+        padding-top: 60px; /* Adjust the padding to make space for the header */
+    }
+
+    .admin-label {
+        color: white; /* Set text color to white */
+        font-weight: bold; /* Make the text bold */
+        margin-bottom: 100px; /* Add space below the label */
+        font-size: 24px; /* Increase font size */
+    }
+
+    /* Style for the links in the sidebar */
+    .sidebar-links {
+        color: white; /* Set link text color to white */
+        text-decoration: none; /* Remove default underline */
+        display: block; /* Make links block elements */
+        margin-bottom: 10px; /* Add some space between links */
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+</style>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script>
+
+    window.onload = function () {
+        adjustTextareaHeight();
+        document.querySelector('textarea[name="Content"]').addEventListener('input', adjustTextareaHeight);
+    };
+
+    function adjustTextareaHeight() {
+        var textarea = document.querySelector('textarea[name="Content"]');
+        textarea.style.height = "auto";
+        textarea.style.height = (textarea.scrollHeight) + "px";
+    }
+</script>
+
+<style>
+    .label-box {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+ *@
+@model Animal_Rental.Models.Articals
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="sidebar w-100 text-center" style="height:50px;background-color:gray">
+
+    <div class="d-flex justify-content-between">
+        <h3 class="admin-label">Admin</h3>
+        <a class="sidebar-links" asp-controller="Admin" asp-action="Index" asp-route-id="7">Dashboard</a>
+        <a class="sidebar-links" asp-controller="Complaints" asp-action="Index" asp-route-id="7">Manage Complaints</a>
+        <a class="sidebar-links" asp-controller="Users" asp-action="Index" asp-route-id="7">Manage Users</a>
+        <a class="sidebar-links" asp-controller="Articals" asp-action="Create" >Create Article</a>
+    </div>
+
+</div>
+
+<h1 style="background-color: lightblue; padding: 10px; text-align: center;">Create New Article</h1>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group row">
+                <label asp-for="Type_Of_Animals" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Type_Of_Animals" class="form-control" placeholder="Enter the type of animal" />
+                    <span asp-validation-for="Type_Of_Animals" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label asp-for="Content" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <textarea asp-for="Content" class="form-control" placeholder="Enter the content"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row text-center">
+                <div class="col-sm-10 offset-sm-2">
+                    <input type="submit" value="Create" class="btn btn-warning" />
+                    <a asp-action="Index" class="btn btn-warning ml-2">Back to List</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script>
+    window.onload = function () {
+        adjustTextareaHeight();
+        document.querySelector('textarea[name="Content"]').addEventListener('input', adjustTextareaHeight);
+    };
+
+    function adjustTextareaHeight() {
+        var textarea = document.querySelector('textarea[name="Content"]');
+        textarea.style.height = "auto";
+        textarea.style.height = (textarea.scrollHeight) + "px";
+    }
+</script>
+<style>
+    /* Sidebar styles */
+    body {
+        background-color: #f2f2f2; /* Set background color to gray */
+    }
+
+    .navbar {
+        background-color: black; /* Set navbar background color to black */
+    }
+
+    .navbar-brand {
+        color: gray !important; /* Set navbar brand text color to white */
+        text-decoration: none; /* Remove default underline */
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important; /* Set navbar link text color to white */
+    }
+
+    .footer {
+        background-color: black; /* Set footer background color to black */
+        color: white; /* Set footer text color to white */
+        padding: 20px 0; /* Add padding to the footer */
+    }
+
+
+
+    /* Main content styles */
+    .content {
+        margin-left: 220px; /* Adjust the margin to make space for the sidebar */
+        padding-top: 60px; /* Adjust the padding to make space for the header */
+    }
+
+    .admin-label {
+        color: white; /* Set text color to white */
+        font-weight: bold; /* Make the text bold */
+        margin-bottom: 100px; /* Add space below the label */
+        font-size: 24px; /* Increase font size */
+    }
+
+    /* Style for the links in the sidebar */
+    .sidebar-links {
+        color: white; /* Set link text color to white */
+        text-decoration: none; /* Remove default underline */
+        display: block; /* Make links block elements */
+        margin-bottom: 10px; /* Add some space between links */
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+</style>

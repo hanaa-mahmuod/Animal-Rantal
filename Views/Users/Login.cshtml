@@ -1,0 +1,66 @@
+﻿@model Animal_Rental.Models.Users
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<div class="d-lg-flex half">
+    <div class="bg order-1 order-md-2 ">
+        <img src="~/Photo/photo_5863936089683772130_y.jpg" class="w-100 h-100"></img>
+    </div>
+    <div class="contents order-2 order-md-1">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-7">
+                    <h3 class="text-black-50 text-black"> <h2>Animal Rental</h2></h3>
+                    <p class="mb-4">YOU ARE WELCOME.</p>
+                    <form asp-action="Login" method="post">
+                        <div class="form-group first">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control " asp-for="Email" placeholder="Email" id="Email">
+                        </div>
+                        <div class="form-group last mb-3">
+                            <label for="password">Password</label>
+                            <input class="form-control" asp-for="Password" placeholder="Password" type="password" id="password">
+                        </div>
+
+                        <div class="d-flex mb-5 align-items-center">
+                            <label class="control control--checkbox mb-0">
+                                <span class="caption">Remember me</span>
+                                <input type="checkbox" checked="checked" />
+                                <div class="control__indicator"></div>
+                            </label>
+
+
+                        </div>
+
+                        <input type="submit" value="Log In" class="btn btn-block" style=" background-color:#B7B7B7">
+                        <br>
+                        <div class="mb-4">
+                            <a href="~/Users/Create" class="btn btn-link text-decoration-none">Create account</a>
+                        </div>
+
+                        <button type="button" class="btn mt-2 w-50  " style="background-color:#4585B7">
+                            <i class="fa-solid fa-backward pe-1 text-white"></i>  <a class="text-decoration-none text-white" asp-controller="Home" asp-action="Index">Back to Home</a>
+
+                        </button>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

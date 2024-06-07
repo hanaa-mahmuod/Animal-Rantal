@@ -1,0 +1,83 @@
+﻿@model Animal_Rental.Models.Animals
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Animals</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="A_Id" />
+            <div class="form-group" style="display: none;>
+                <label asp-for="User_Id" class="control-label"></label>
+                <select asp-for="User_Id" class="form-control" asp-items="ViewBag.User_Id"></select>
+                <span asp-validation-for="User_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="State" class="control-label"></label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birth_Certificate" class="control-label"></label>
+                <input asp-for="Birth_Certificate" class="form-control" />
+                <span asp-validation-for="Birth_Certificate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Photo</label>
+                <input type="file" asp-for="ClientFile" id="photoInput" class="form-control" />
+                <span asp-validation-for="ClientFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('photoInput').addEventListener('change', function () {
+            var file = this.files[0];
+            var fileType = file.type.split('/')[0]; // Get the file type (e.g., 'image' or 'video')
+
+            if (fileType !== 'image') {
+                alert('Please select a valid image file.');
+                this.value = ''; // Clear the file input
+            }
+        });
+    </script>
+   
+}

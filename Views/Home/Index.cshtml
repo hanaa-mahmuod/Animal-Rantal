@@ -1,0 +1,264 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<script>
+    $(window).load(function () {
+        $('.slider')._TMS({
+            show: 0,
+            pauseOnHover: false,
+            prevBu: '.prev',
+            nextBu: '.next',
+            playBu: false,
+            duration: 800,
+            preset: 'fade',
+            pagination: true, //'.pagination',true,'<ul></ul>'
+            pagNums: false,
+            slideshow: 8000,
+            numStatus: false,
+            banners: true,
+            waitBannerAnimation: false,
+            progressBar: false
+        })
+    });
+    $(window).load(function () {
+        $('.carousel1').carouFredSel({
+            auto: false,
+            prev: '.prev',
+            next: '.next',
+            width: 960,
+            items: {
+                visible: {
+                    min: 3,
+                    max: 3
+                },
+                height: 'auto',
+                width: 300,
+            },
+            responsive: true,
+            scroll: 1,
+            mousewheel: false,
+            swipe: {
+                onMouse: true,
+                onTouch: true
+            }
+        });
+    });
+    jQuery(document).ready(function () {
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+    });
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+
+
+<
+<div class="top_block">
+    <div class="slider-relative">
+        <div class="slider-block">
+            <div class="slider">
+                <ul class="items">
+
+                    <li>
+                        <img src="~/images/slide.jpg" alt="">
+                        <div class="banner">
+                            They Need Your <span>Love</span> and <i>Care</i>
+
+                        </div>
+                    </li>
+                    <li>
+                        <img src="~/images/slide1.jpg" />
+                        <div class="banner">
+                            They Need Your <span>Love</span> and <i>Care</i>
+
+                        </div>
+                    </li>
+                    <li>
+                        <img src="~/images/slide2.jpg" />
+                        <div class="banner">
+                            They Need Your <span>Love</span> and <i>Care</i>
+
+                        </div>
+                    </li>
+                    <li>
+                        <img src="~/images/slide3.jpg" />
+                        <div class="banner">
+                            They Need Your <span>Love</span> and <i>Care</i>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page1_block">
+    <div class="container_12">
+        <div class="grid_6">
+            <h2>Welcome to Our Site</h2>
+            <br>
+            <img src="~/images/page1_img5.jpg" alt="" class="img_inner fleft">
+
+            <p>
+                Welcome to AnimalRental.com, your premier destination for rental and adoption services for beloved animal companions. At AnimalRental, we believe that every pet deserves a loving home and every home deserves the joy of a furry, feathery, or scaly friend.
+
+                Our website offers a seamless platform for individuals and families to find their perfect match among a diverse array of pets available for rental or adoption. From playful puppies and cuddly kittens to majestic birds and exotic reptiles, our selection caters to a variety of preferences and lifestyles.
+
+                But we don't stop at just connecting you with your new best friend. PetRental is also committed to providing valuable resources and information to help you become the best pet parent possible. Our extensive collection of articles covers everything from basic pet care tips and training techniques to understanding animal behavior and promoting wellness.
+
+                Whether you're a seasoned pet owner or embarking on your first pet-parenting journey, PetRental is your one-stop destination for all things related to Animal rental, adoption, and care. Join our community today and experience the joy of companionship that only a furry, feathered, or scaly friend can bring.
+            </p>
+            <a href="#" class="btn">More</a>
+        </div>
+        <div class="grid_5 prefix_1">
+            <h2 class="ic1">Our Services</h2>
+            <ul class="list">
+                <li>
+                    <span style="width: 80px;">
+                        <p style="margin-top: 15px; color: white;">RENTAL</p>
+                    </span>
+                    <div class="extra_wrapper">
+                        <div class="col1">
+                            <a href="Rental.html">More Detail</a>
+
+                        </div>
+                        At PetRental, we offer a unique animal rental service, providing the joy of companionship without long-term commitment. Choose from our diverse selection, rent for the duration you need, and enjoy the love and affection of your chosen animal without the lifelong responsibility.
+                    </div>
+                </li>
+                <li>
+                    <span style="width: 80px; background-color: orange;">
+                        <p style="margin-top: 15px; color: white;">ADABTION</p>
+                    </span>
+                    <div class="extra_wrapper">
+                        <div class="col1">
+                            <a href="Adabtion.html">More Detail</a>
+
+                        </div>
+                        Discover our adoption service at PetRental, where you can find your perfect animal companion to bring home and cherish. With a variety of animals waiting for loving homes, our adoption process is designed to match you with the ideal pet for your lifestyle and preferences. Take the first step towards a lifelong bond by adopting a furry, feathered, or scaly friend today.
+                    </div>
+                </li>
+                <li>
+                    <span style="width: 80px;">
+                        <p style="margin-top: 15px; color: white;">ARTICALS</p>
+                    </span>
+                    <div class="extra_wrapper">
+                        <div class="col1">
+                            <a href="Articals.html">More Detail</a>
+
+                        </div>
+                        Explore our article service at PetRental for essential pet care tips, training advice, and insights into animal behavior. Whether you're a novice or experienced pet owner, our curated articles provide valuable guidance to nurture a strong bond with your furry friend and ensure their well-being.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content page1">
+    <div class="container_12">
+
+        <div class="clear"></div>
+        <h2>Pets For Adaption</h2>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner w-50 mx-auto mt-5">
+                <div class="carousel-item active">
+                    <img src="~/images/carousel1_img1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">cherasi cat</h5>
+                        <p class="style-slider">she has 1 year </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/carousel1_img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">parrot</h5>
+                        <p class="style-slider">It has 2years,it is female</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/carousel1_img3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">policy dog</h5>
+                        <p class="style-slider">it has 3years ,it is male</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/carousel1_img4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">Second slide label</h5>
+                        <p class="style-slider">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/carousel1_img5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">Second slide label</h5>
+                        <p class="style-slider">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/carousel1_img6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="style-slider">Second slide label</h5>
+                        <p class="style-slider">Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="bottom_block">
+    <div class="container_12">
+        <div class="grid_6">
+            <h2>Pet Care Tips </h2>
+            <br>
+            <p style="color:rgba(255, 255, 255, 0.515);">Enhance your pet parenting skills with our concise and practical pet care tips. From nutrition to grooming and behavior, our expert advice ensures your furry friend receives the best care possible. Elevate your pet care routine and foster a happy, healthy life for your beloved companion.Refine your pet care approach with our succinct yet comprehensive tips covering nutrition, grooming, and behavior. Our curated advice is tailored to enhance the well-being of your furry friend, promoting a fulfilling and enriching life together. Embrace these insights to become a confident and nurturing pet parent, ensuring your companion thrives under your care.</p>
+        </div>
+        <div class="grid_5 prefix_2">
+            <h2 class="ic1">Any Question?</h2>
+            <div class="d-flex justify-content-evenly ">
+                <div style="width:80%;">
+                    <img style="width:100%"  src="~/images/page1_img4.jpg" alt="">
+                </div>
+                <div class="cont" style="width:100px;"> <a class="d-inline-block" href="@Url.Action("contact","contact")" style="color: #C9E54E;">CONTACT US </a> </div>
+            </div>
+           
+            <div class="extra_wrapper">
+                
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+@* <footer>
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+            <p>AnimalRental &copy; 2045 | <a href="#">Privacy Policy</a> </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</footer> *@

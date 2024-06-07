@@ -1,0 +1,97 @@
+﻿@model Animal_Rental.Models.Articals
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="sidebar w-100 text-center" style="height:50px;background-color:gray">
+
+    <div class="d-flex justify-content-between">
+        <h3 class="admin-label">Admin</h3>
+        <a class="sidebar-links" asp-controller="Admin" asp-action="Index" asp-route-id="7">Dashboard</a>
+        <a class="sidebar-links" asp-controller="Complaints" asp-action="Index" asp-route-id="7">Manage Complaints</a>
+        <a class="sidebar-links" asp-controller="Users" asp-action="Index" asp-route-id="7">Manage Users</a>
+        <a class="sidebar-links" asp-controller="Articals" asp-action="Create" >Create Article</a>
+    </div>
+
+    @*  <a class="sidebar-links" asp-controller="Articals" asp-action="Read" asp-route-id="7">Articles</a> *@
+</div>
+<h1 style="background-color: lightpink; padding: 10px;">Delete Article</h1>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Type_Of_Animals)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Type_Of_Animals)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group" style="margin-top: 20px;">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </form>
+</div>
+
+<style>
+    /* Sidebar styles */
+    body {
+        background-color: #f2f2f2; /* Set background color to gray */
+    }
+
+    .navbar {
+        background-color: black; /* Set navbar background color to black */
+    }
+
+    .navbar-brand {
+        color: gray !important; /* Set navbar brand text color to white */
+        text-decoration: none; /* Remove default underline */
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important; /* Set navbar link text color to white */
+    }
+
+    .footer {
+        background-color: black; /* Set footer background color to black */
+        color: white; /* Set footer text color to white */
+        padding: 20px 0; /* Add padding to the footer */
+    }
+
+   
+
+    /* Main content styles */
+    .content {
+        margin-left: 220px; /* Adjust the margin to make space for the sidebar */
+        padding-top: 60px; /* Adjust the padding to make space for the header */
+    }
+
+    .admin-label {
+        color: white; /* Set text color to white */
+        font-weight: bold; /* Make the text bold */
+        margin-bottom: 100px; /* Add space below the label */
+        font-size: 24px; /* Increase font size */
+    }
+
+    /* Style for the links in the sidebar */
+    .sidebar-links {
+        color: white; /* Set link text color to white */
+        text-decoration: none; /* Remove default underline */
+        display: block; /* Make links block elements */
+        margin-bottom: 10px; /* Add some space between links */
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+</style>

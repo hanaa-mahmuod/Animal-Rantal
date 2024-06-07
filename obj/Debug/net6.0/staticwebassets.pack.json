@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Animal_Rental.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Animal_Rental.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (195).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (195).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (196).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (196).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (197).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (197).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (198).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (198).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (199).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (199).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\Screenshot (200).png",
+      "PackagePath": "staticwebassets\\Photo\\Screenshot (200).png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\photo_5863936089683772130_y.ico",
+      "PackagePath": "staticwebassets\\Photo\\photo_5863936089683772130_y.ico"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\Photo\\photo_5863936089683772130_y.jpg",
+      "PackagePath": "staticwebassets\\Photo\\photo_5863936089683772130_y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\DS_Store",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\grid.css",
+      "PackagePath": "staticwebassets\\css\\grid.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\ie.css",
+      "PackagePath": "staticwebassets\\css\\ie.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\slider.css",
+      "PackagePath": "staticwebassets\\css\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\css\\superfish.css",
+      "PackagePath": "staticwebassets\\css\\superfish.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\btn_bg.png",
+      "PackagePath": "staticwebassets\\images\\btn_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\carousel1_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel1_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\icon1.png",
+      "PackagePath": "staticwebassets\\images\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\icon2.png",
+      "PackagePath": "staticwebassets\\images\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\mansbestfriend-lede.jpg",
+      "PackagePath": "staticwebassets\\images\\mansbestfriend-lede.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\menu_separator.png",
+      "PackagePath": "staticwebassets\\images\\menu_separator.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page1_bg.png",
+      "PackagePath": "staticwebassets\\images\\page1_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page1_img1.png",
+      "PackagePath": "staticwebassets\\images\\page1_img1.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page1_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\page1_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page1_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\page1_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img10.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img7.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img8.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page2_img9.jpg",
+      "PackagePath": "staticwebassets\\images\\page2_img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page3_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\page3_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page3_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\page3_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page3_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\page3_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page3_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\page3_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page3_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\page3_img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page4_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\page4_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page4_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\page4_img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page4_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\page4_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\page4_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\page4_img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\pagination.png",
+      "PackagePath": "staticwebassets\\images\\pagination.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\photo_5863936089683772130_y.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_5863936089683772130_y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\prevnext.png",
+      "PackagePath": "staticwebassets\\images\\prevnext.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\shadow.png",
+      "PackagePath": "staticwebassets\\images\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\shadow1.png",
+      "PackagePath": "staticwebassets\\images\\shadow1.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\sl_shadow.png",
+      "PackagePath": "staticwebassets\\images\\sl_shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\slide.jpg",
+      "PackagePath": "staticwebassets\\images\\slide.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\slide3.jpg",
+      "PackagePath": "staticwebassets\\images\\slide3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\socials.png",
+      "PackagePath": "staticwebassets\\images\\socials.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\sub_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\sub_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\sub_bg.png",
+      "PackagePath": "staticwebassets\\images\\sub_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\images\\totop.png",
+      "PackagePath": "staticwebassets\\images\\totop.png"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\PIE.htc",
+      "PackagePath": "staticwebassets\\js\\PIE.htc"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\forms .js",
+      "PackagePath": "staticwebassets\\js\\forms .js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\forms.js",
+      "PackagePath": "staticwebassets\\js\\forms.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery-migrate-1.1.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-1.1.1.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery.carouFredSel-6.1.0-packed.js",
+      "PackagePath": "staticwebassets\\js\\jquery.carouFredSel-6.1.0-packed.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery.equalheights.js",
+      "PackagePath": "staticwebassets\\js\\jquery.equalheights.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\jquery.ui.totop.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ui.totop.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\superfish.js",
+      "PackagePath": "staticwebassets\\js\\superfish.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\js\\tms-0.4.1.js",
+      "PackagePath": "staticwebassets\\js\\tms-0.4.1.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\3onsor\\source\\repos\\Animal_Rental\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Animal_Rental.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Animal_Rental.props",
+      "PackagePath": "build\\Animal_Rental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Animal_Rental.props",
+      "PackagePath": "buildMultiTargeting\\Animal_Rental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Animal_Rental.props",
+      "PackagePath": "buildTransitive\\Animal_Rental.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,227 @@
+﻿@* @model Animal_Rental.Models.Users
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Sign Up</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="First_Name" class="control-label"></label>
+                                <input asp-for="First_Name" class="form-control" />
+                                <span asp-validation-for="First_Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label asp-for="Last_Name" class="control-label"></label>
+                                <input asp-for="Last_Name" class="form-control" />
+                                <span asp-validation-for="Last_Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="National_ID" class="control-label"></label>
+                        <input asp-for="National_ID" class="form-control" maxlength="14" />
+                        <span asp-validation-for="National_ID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Age" class="control-label"></label>
+                        <input asp-for="Age" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Phone" class="control-label"></label>
+                        <input asp-for="Phone" class="form-control" maxlength="11" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Jop" class="control-label"></label>
+                        <input asp-for="Jop" class="form-control" />
+                        <span asp-validation-for="Jop" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <select asp-for="Gender" class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" type="password"/>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-warning" />
+                    </div>
+                </form>
+            </div>
+       </div>
+    </div>
+    <div class="col-md-6">
+        <img src="~/Photo/photo_5863936089683772130_y.jpg"
+             alt="Sample photo"
+             class="img-fluid"
+             style="border-top-left-radius: .25rem; border-bottom-right-radius: .25rem;" />
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+ *@
+@model Animal_Rental.Models.Users
+
+@{
+    ViewData["Title"] = "Create";
+
+}
+<div class="sign">
+    <div class="container d-flex" style="background-color:#F6F7FC;">
+        <div class="w-75">
+            <h3 class="text-black-50 text-black"> <h2>Animal Rental</h2></h3>
+            <p class="mb-4">YOU ARE WELCOME.</p>
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row">
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="First_Name" class="control-label h6"></label>
+                            <input asp-for="First_Name" class="form-control fw-medium " />
+                            <span asp-validation-for="First_Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Last_Name" class="control-label"></label>
+                            <input asp-for="Last_Name" class="form-control fw-medium h6" />
+                            <span asp-validation-for="Last_Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="National_ID" class="control-label h6"></label>
+                            <input asp-for="National_ID" class="form-control fw-medium " maxlength="14" />
+                            <span asp-validation-for="National_ID" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Age" class="control-label h6"></label>
+                            <input asp-for="Age" class="form-control fw-medium " />
+                            <span asp-validation-for="Age" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Phone" class="control-label h6"><i class="fa-solid fa-phone fs-5"></i>Phone</label>
+                            <input asp-for="Phone" class="form-control fw-medium " maxlength="11" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Address" class="control-label h6"></label>
+                            <input asp-for="Address" class="form-control fw-medium " />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Jop" class="control-label h6"></label>
+                            <input asp-for="Jop" class="form-control fw-medium " />
+                            <span asp-validation-for="Jop" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Gender" class="control-label h6"><i class="fa-solid fa-venus-mars text-white fs-5"></i> Gender</label>
+                            <select asp-for="Gender" class="form-control">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="control-label h6"></label>
+                            <input asp-for="Email" class="form-control fw-medium " />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="control-label h6"><i class="fa-solid fa-key fs-5"></i> Password</label>
+                            <input asp-for="Password" class="form-control fw-medium " type="password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class=" col-lg-12">
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn mt-2  " style="background-color:#F98D0D;height:50px; width:100px ">
+                                <i class="fa-solid fa-right-to-bracket text-white"></i> Sign Up
+
+                            </button>
+
+
+                        </div>
+                    </div>
+                    <div class=" col-lg-12">
+                        <div class="form-group mb-3">
+
+
+                            <button type="button" class="btn mt-2  w-25 " style="background-color:#4585B7;height:50px">
+                                <i class="fa-solid fa-backward pe-1 text-white"></i>  <a class="text-decoration-none text-white" asp-controller="Home" asp-action="Index">Back to Home</a>
+
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+
+
+        </div>
+
+        <div class=" ">
+            <img src="~/Photo/photo_5863936089683772130_y.jpg" />
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

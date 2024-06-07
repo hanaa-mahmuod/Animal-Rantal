@@ -1,0 +1,266 @@
+﻿@* @model Animal_Rental.Models.Users
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Details</h1>
+<nav>
+    <ul>
+        <li><a onclick="onLogout" href="@Url.Action("Logout","Users")">Logout</a></li>
+    </ul>
+</nav>
+<div>
+    <hr />
+    <div class="container" style="height:500px;">
+        <div class="row align-items-center">
+            <div class="col-md-5" style="height:500px">
+                <div class="osahan-account-page-left shadow-sm bg-white h-100 d-flex justify-content-center align-items-center">
+                    <div class="osahan-user text-center">
+                        <div class="osahan-user-media">
+                            <div class="osahan-user-media-body">
+                                <dl class="row">
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.First_Name)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.First_Name)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Last_Name)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Last_Name)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.National_ID)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.National_ID)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Age)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Age)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Phone)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Phone)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Address)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Address)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Jop)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Jop)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Gender)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Gender)
+                                    </dd>
+                                    <dt class="col-sm-3">
+                                        @Html.DisplayNameFor(model => model.Email)
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        @Html.DisplayFor(model => model.Email)
+                                    </dd>z
+                                  
+                                </dl>
+                                  
+                                <div>
+                                    <a asp-action="Edit" asp-route-id="@Model?.U_Id">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="osahan-account-page-right shadow-sm bg-white p-4 h-100">
+                    <h4 style ="color:black;"> My Animals</h4>
+                    <div class="row">
+                        @if (Model.Animals != null)
+                        {
+                            @foreach (var item in Model.Animals)
+                            {
+                                <div class="col-xl-4 col-md-6" id="team-1">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex mb-4">
+                                                <div class="flex-grow-1 align-items-start">
+                                                    
+                                                    @{
+                                                        var base64 = Convert.ToBase64String(item.Animal_Images);
+                                                        var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+
+                                                    }
+                                                    <img src="@imgsrc" style="max-width: 100px; max-height: 100px" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1 font-size-17" style="color:black;">@item.Name</h5>
+                                            </div>
+                                            <div class="form-group">
+                                              
+                                                <a asp-action="Edit" asp-controller="Animals" asp-route-id="@item.A_Id">Edit</a>
+                                              
+                                                <a asp-action="Delete" asp-controller="Animals" asp-route-id="@item.A_Id">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            }
+                        }
+                        <div class="col-xl-4 col-md-6">
+                            <div class="form-group">
+                              
+                                <a asp-action="Create" asp-controller="Animals">Add new Animal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <script>
+            function onLogout() {
+                history.pushState({}, "", "/Login");
+            }
+
+        </script>
+ *@
+
+
+
+@model Animal_Rental.Models.Users
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class=" header m-auto text-center mt-4 mb-4"><h1 class="fs-1 text-black "> Profile Details</h1></div>
+
+
+<div>
+    
+    <div class="container" style="height:500px;">
+        <div class="row align-items-center">
+            <div class="col-4" style="height:500px">
+                <div class="osahan-account-page-left shadow-sm  h-100 d-flex justify-content-center align-items-center">
+                    <div class="osahan-user text-center">
+                        <div class="osahan-user-media">
+                            <div class="osahan-user-media-body">
+                                <div >
+                                    <table class="table table-success table-striped  table-bordered" style="width:500px;">
+                                        <tr>
+                                            <td>First Name</td>
+                                            <td> @Html.DisplayFor(model => model.First_Name)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last Name</td>
+                                            <td>@Html.DisplayFor(model => model.Last_Name)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>National ID</td>
+                                            <td>@Html.DisplayFor(model => model.National_ID)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Age</td>
+                                            <td> @Html.DisplayFor(model => model.Age)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone Number</td>
+                                            <td>@Html.DisplayFor(model => model.Phone)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adderess</td>
+                                            <td> @Html.DisplayFor(model => model.Address)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jop</td>
+                                            <td>  @Html.DisplayFor(model => model.Jop)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gender</td>
+                                            <td> @Html.DisplayFor(model => model.Gender)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>  @Html.DisplayFor(model => model.Email)</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
+                                <div class="btn w-50 h-75 text-white fs-5" style="width:70px;height:30px ;background-color:#4585b7"><a asp-action="Edit" asp-route-id="@Model?.U_Id">Edit</a></div>
+                                <div class="btn-secondary fs-5 text-white " style="width:70px;height:30px"><a onclick="onLogout" href="@Url.Action("Logout","Users")">Logout</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 ms-5">
+                <div class="osahan-account-page-right shadow-sm bg-white p-4 h-100">
+                    <h4 style="color:black;"> My Animals</h4>
+                    <div class="row">
+                        @if (Model.Animals != null)
+                        {
+                            @foreach (var item in Model.Animals)
+                            {
+                                <div class="col-xl-4 col-md-6" id="team-1">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex mb-4">
+                                                <div class="flex-grow-1 align-items-start">
+
+                                                    @{
+                                                        var base64 = Convert.ToBase64String(item.Animal_Images);
+                                                        var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+
+                                                    }
+                                                    <img src="@imgsrc" style="max-width: 100px; max-height: 100px" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1 font-size-17" style="color:black;">@item.Name</h5>
+                                            </div>
+                                            <div class="form-group">
+                                                @*  asp-route-UId="@Model.U_Id" *@
+                                                <a asp-action="Edit" asp-controller="Animals" asp-route-id="@item.A_Id">Edit</a>
+                                                @*  asp-route-UId="@Model.U_Id" *@
+                                                <a asp-action="Delete" asp-controller="Animals" asp-route-id="@item.A_Id">Delete</a>
+                                            </div>
+                                        </div><!-- end card-body -->
+                                    </div><!-- end card -->
+                                </div> <!-- end col -->
+                            }
+                        }
+                        <div class="col-xl-4 col-md-6">
+                            <div class="form-group">
+                                @*  asp-route-UId="@Model.U_Id" *@
+                                <div class=" btn btn-warning fs-5 w-50 h-75 text-white" style="background-color:#8ACC4D; width:70px;height:30px">  <a asp-action="Create" asp-controller="Animals">Add new</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function onLogout() {
+        history.pushState({}, "", "/Login");
+    }
+
+</script>
